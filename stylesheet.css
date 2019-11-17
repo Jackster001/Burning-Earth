@@ -1,0 +1,500 @@
+body{
+    font-family: Helvetica;
+    top:-22px;
+    left: 0;
+    right: 0;
+    margin:0;
+    padding:0;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    max-width: 100%;
+    overflow-y:hidden;
+}
+html{
+    overflow-x:hidden;
+    max-width: 100%;
+}
+
+.sectionOne{
+    height: 1000px;
+    width: 100%;
+    background-image: url("images/burn-burning-fire-51951.jpg");
+    /* Image from Pixabay Photographer */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    top: 20px;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+}
+.introParagraph{
+    width: 500px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.introParagraph>center>h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.introParagraph>center>p{
+    color:white;
+    font-size: 20px;
+}
+.shotByOne{
+    bottom: 0;
+    position: relative;
+    color: white;
+}
+.sectionTwo{
+    background-color: #1E1E1E;
+    height: 1000px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+.withinContainer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.sectionTwoTitle{
+    margin-top: -30px;
+    float: right;
+    width: 100px;
+    margin-right: 120px;
+}
+.sectionTwoTitle>h1{
+    font-size: 50px;
+    color: white;
+}
+.whatSection{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    float: left;
+    position: absolute;
+    padding: 50px 70px;
+    top: 300px;
+    left: 650px;
+    z-index: 1000;
+    box-shadow: 20px 20px 15px black;
+    font-size: 21px;
+}
+.whatSection>p{
+    line-height: 150%;
+    text-indent:40px;
+}
+.sectionThree{
+    background-color: #4C0202;
+    height: 2000px;
+    width: 100%;
+    display: inline-block;
+    
+}
+.blankSection{
+    font-size: 25px;
+    color: white;
+    height: 300px;
+    width:400px;
+    float: left;
+    justify-content: space-evenly;
+}
+.recentTitle{
+    font-size: 80px;
+    
+}
+.events{
+    /* display: flex; */
+    float: left;
+    width: 40%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+.events>img{
+    width:95%;
+    height: 400px;
+    margin: 0 auto;
+}
+.eventText{
+    display: flex;
+    width: 30%;
+}
+.eventText>h1{
+    color: white;
+    font-size: 30px
+}
+.eventText>p{
+    font-size: 20px
+}
+.eventText>p{
+    color: white;
+    font-size: 25px;
+}
+.eventText>p>a{
+    color: white;
+}
+.eventRow{
+    margin-top: 60px;
+}
+.sectionFour{
+    background-color:white;
+    height: 1100px;
+    width: 100%;
+}
+.sectionFour>.container>img{
+    width: 40%;
+    display: flex;
+    float: left;
+}
+.sectionFour>.container>div>img{
+    width: 100%;
+    display: flex;
+    float: left;
+}
+.sectionFour>.container>center>h1{
+    
+    font-size: 60px;
+}
+
+.sectionFour>.container>.tempText{
+    width: 42%;
+    margin-left: 100px;
+    float: left;
+}
+.sectionFour>.container>div>p{
+    margin-top: 350px;
+    font-size: 22px;
+    font-weight: bold
+}
+
+.sectionFive{
+    background-color: #818181;
+    height: 3600px;
+    width: 100%;
+}
+.sectionFive>.container>div>h1{
+    font-size: 100px;
+    color: white;
+}
+.sectionFour>.container>.tempTextTwo{
+    margin-left: 100px;
+    width: 42%;
+    float: left;
+}
+.leftCause{
+    width: 110%;
+}
+.leftCause>img{
+    width: 140%;
+}
+.leftCauseDescription{
+    width:400px;
+    height: auto;
+    float: right;
+    padding: 20px 40px;
+    margin-right: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:700px;
+    right: -100px;
+}
+.leftCauseDescription>h1{
+    color:white;
+    font-size: 50px;
+}
+.leftCauseDescription>p{
+    color: white;
+    font-size: 25px;
+}
+.rightCause{
+    width: 100%;
+}
+.rightCause>img{
+    width: 90%;
+    float: left;
+    left: -100;
+    margin-left: -200px;
+    height: auto;
+}
+.rightCauseDescription{
+    width:400px;
+    height: auto;
+    float: left;
+    padding: 20px 40px;
+    margin-left: 100px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top:1500px;
+    left: 500px;
+}
+.rightCauseDescription>h1{
+    color:white;
+    font-size: 50px;
+}
+.rightCauseDescription>p{
+    color: white;
+    font-size: 25px;
+}
+
+.middleCause{
+    width: 100%;
+    height: auto;
+    margin-top: 500px;
+}
+.middleCause>center>img{
+    width: 80%;
+    margin-left: 100px;
+    height: auto;
+}
+.middleCauseDescription{
+    width:400px;
+    height: auto;
+    float: middle;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 2400px;
+    left: 50px;
+}
+.middleCauseDescription>h1{
+    color:white;
+    font-size: 50px;
+}
+.middleCauseDescription>p{
+    color: white;
+    font-size: 25px;
+}
+.sectionSix{
+    width: 100%;
+    height: 1200px;
+}
+.sectionSix>.container>center>.sixTitle{
+    font-size: 70px;
+}
+.counter{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: black;
+    margin: 0 auto;
+}
+.counter>h1{
+    color: white
+}
+.counterNumber{
+    float: right;
+    color: white;
+}
+.cardRow{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+.card{
+    width: 20%;
+    /* border: 1px solid black */
+    
+}
+.card>center>img{
+    width: auto;
+    height:120px;
+}
+.card>center>a>button{
+    width: 80%;
+    border: 0;
+    background-color: #2ABD7D;
+    padding: 5px;
+    font-size: 22px;
+    color: white;
+    border-radius: 5px;
+}
+.card>center>a>button:hover{
+    background-color: #20895B;
+    cursor: pointer;
+}
+.lastSentence{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+@media only screen and (max-width: 1699px) and ( min-width: 1200px) {
+    .sectionFive{
+        height: 3900px;
+    }
+    .middleCause{
+        margin-top: 1100px;
+    }
+    .middleCauseDescription{
+        top: 2800px;
+    }
+    .sectionThree{
+        background-color: #4C0202;
+        height: 2200px;
+        width: 100%;
+        display: inline-block;
+        
+    }
+}
+@media only screen and (max-width: 1899px) and ( min-width: 1700px) {
+    .recentTitle{
+        font-size: 50px;
+        width: 10%;
+    }
+    .whatSection{
+        width: 600px;
+        height: 350px;
+        top: 300px;
+        left: 400px;
+    }
+    .sectionTwo{
+        height: 1000px;
+    }
+    .sectionThree{
+        height: 1700px;
+        width: 100%;
+        display: inline-block;
+    }
+    .events{
+        float: left;
+        width: 48%;
+        margin-left: -175px;
+    }
+    .eventText{
+        display: flex;
+        width: 32%;
+    }
+    .eventText>p{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .events>img{
+        width: 95%;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .eventRow{
+        margin-top: 150px;
+    }
+    .sectionFour>.container>div>p{
+        margin-top: 250px;
+        font-size: 16px;
+        font-weight: bold
+    }
+    .sectionFour>.container>.tempTextTwo{
+        margin-left: 50px;
+        width: 42%;
+        float: left;
+    }
+    .sectionFour{
+        height: 850px;
+    }
+    .sectionFive{
+        height: 4500px;
+    }
+    .sectionFive>.container>h1{
+        font-size: 80px;
+        color: white;
+    }
+    .rightCauseDescription{
+        top:1800px;
+        left: 500px;
+    }
+    .middleCause{
+        margin-top: 800px
+    }
+    .middleCauseDescription{
+        top: 3000px;
+    }
+
+}
+@media only screen and (min-width: 1900px) and (max-width: 2200px){
+    .recentTitle{
+        font-size: 60px;
+    }
+    .blankSection{
+        width: 300px;
+
+    }
+    .events{
+        display: flex;
+        float: left;
+        width: 40%;
+        padding-right: 20px
+        /* justify-content: space-evenly; */
+    }
+    .events>img{
+        width: 100%
+    }
+
+    .eventText>h1{
+        font-size: 20px;
+    }
+    .eventText>p{
+        color: white;
+        font-size: 18px;
+    }
+    .eventText{
+        display: flex;
+        width: 30%;
+    }
+    .eventRow{
+        margin-top: 250px;
+    }
+    .sectionThree{
+        background-color: #4C0202;
+        height: 2000px;
+        width: 100%;
+        display: inline-block;
+    }
+    .sectionFour>.tempTextTwo{
+        margin-left: auto;
+        width: 100%;
+        float: left;
+    }
+    .rightCauseDescription{
+        top:2200px;
+        left:500
+    }
+    .middleCause{
+        margin-top: 1250px
+    }
+    .sectionFive{
+        /* background-color: bisque; */
+        height: 4700px;
+    }
+    .rightCauseDescription{
+        top:1900px;
+    }
+    .middleCauseDescription{
+        top: 3200px;
+    }
+}
+@media only screen and (min-width: 2201px){
+    .sectionFour{
+        background-color: aqua
+    }
+
+
+}
+
+
+
